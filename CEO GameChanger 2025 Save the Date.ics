@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="ELC Department of Member Services";RSVP=TRUE:mailto:memberserv
+	ices@elcinfo.com
+CLASS:PUBLIC
+CREATED:20250130T191531Z
+DESCRIPTION:This a “Save the Date” test calendar invite. \n\n
+DTEND;TZID="Eastern Standard Time":20251002T130000
+DTSTAMP:20250130T191303Z
+DTSTART;TZID="Eastern Standard Time":20251002T090000
+LAST-MODIFIED:20250130T191531Z
+LOCATION:Gaylord National Resort & Convention Center (201 Waterfront St\, O
+	xon Hill\, MD  20745)
+ORGANIZER;CN="Samad Sadri":mailto:ssadri@elcinfo.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:CEO GameChanger 2025 Save the Date
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000070F3A6BB2073DB01000000000000000
+	010000000AF85427081EFB74C9010613D6F0B33EB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=Generato
+	r content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Defin
+	itions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5
+	 4 6 3 2 4\;}\n@font-face\n	{font-family:Aptos\;}\n/* Style Definitions */
+	\np.MsoNormal\, li.MsoNormal\, div.MsoNormal\n	{margin:0in\;\n	font-size:1
+	1.0pt\;\n	font-family:"Aptos"\,sans-serif\;\n	mso-ligatures:standardcontex
+	tual\;}\nspan.EmailStyle17\n	{mso-style-type:personal-compose\;\n	font-fam
+	ily:"Aptos"\,sans-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-sty
+	le-type:export-only\;\n	font-size:11.0pt\;}\n@page WordSection1\n	{size:8.
+	5in 11.0in\;\n	margin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page
+	:WordSection1\;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:
+	ext="edit" spidmax="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n
+	<o:shapelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shape
+	layout></xml><![endif]--></head><body lang=EN-US link="#467886" vlink="#96
+	607D" style='word-wrap:break-word'><div class=WordSection1><p class=MsoNor
+	mal>This a &#8220\;Save the Date&#8221\; test calendar invite. <o:p></o:p>
+	</p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20250130T191303Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
